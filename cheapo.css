@@ -1,0 +1,150 @@
+/*
+@import url(http://fonts.googleapis.com/css?family=Dosis:300|Lato:300,400,600,700|Roboto+Condensed:300,700|Open+Sans+Condensed:300,600|Open+Sans:400,300,600,700|Maven+Pro:400,700);
+@import url("http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+
+*{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+jj
+.nav li .logo {
+  text-align: left;
+  margin-left: -275px;
+  font-size: 3.0rem;
+  padding-top: 10px;
+  font-weight: 600;
+  color: #CC9900;
+}
+
+.nav li a .logout{
+  position: fixed
+  margin-right -200px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #EDF4F5;
+  font-family: "Open Sans";
+  font-size: 12px;
+  color: White;
+}
+
+.nav ul {
+  list-style: none;
+  text-align: center;
+  padding-bottom: 10px;
+  background-color: #1d2731;
+  margin: auto auto;
+  -moz-box-shadow: 0 0 10px black;
+  -webkit-box-shadow: 0 0 10px black;
+  box-shadow: 0 0 10px black;
+}
+
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 30px;
+  border-bottom: 1px solid #888;
+  margin-left: 50px;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  transition: .3s background-color;
+  margin-left: -50px;
+  padding-top: 20px
+}
+ 
+.nav a:hover {
+  background-color: #d9b310;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+*/
+
+.main {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.content span {
+  font-size: 0.9rem;
+}
+
+.content .title{
+  text-align: center;
+  font-size: 2.0rem;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+
+body {
+  background-image: url("Halloween Border Clip Art 46650.png");
+  margin: 0;
+  padding: 0;
+  background: white;
+  font-family: "Open Sans";
+  font-size: 12px;
+  color: White;
+}
+
+.intro{
+    color: teal;
+    margin-left: 500px;
+    font-size: x-large;
+    position: absolute;
+}
+.button{
+    background-color: #6495ED;
+    font-weight: bold;
+    
+}
+.centerofattention{
+    color: teal;
+    position: relative;
+}
+img{
+    margin-top: 100px;
+    margin-left: 600px;
+    border-radius:50%;
+}
+#submit:hover{
+    background-color: red;
+    color:white;
+    
+}
+#fname, #lname, #usename, #pwrd{
+    background-color: #D3D3D3;
+    color: teal;
+} 
+label{
+    color:black;
+}
+
+h2{
+color: black;
+}
+h1{
+color: teal;
+font-size: x-large;
+text-align: center;
+}
+.title{
+    color:teal;
+}
+.centerspan{
+    color:teal;
+}
+.spanedit{
+    color:grey;
+}

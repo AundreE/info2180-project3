@@ -1,0 +1,27 @@
+<!--620086012, 620085510, 620088977-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="cheapo.css" type="text/css" />
+        <script type="text/javascript" src="cheapo.js"></script>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    </head>
+    <body>
+        <div class ="centerofattention">
+        </div>
+        <form action="cheapo.php"method="POST">
+            <h1> Administration: Create New User <h1>
+            <h2>Create a User below</h2>
+            <label for="firstnme">Enter First Name:</label>
+            <input type="text" name="firstname" id="fname"/><br><br>
+            <label for="lastname">Enter Last Name:</label>
+            <input type="text" name="lastname" id="lname"/><br><br>
+            <label for="username">Enter Username:</label>
+            <input type="text" name="username" id="usename"/><br><br>
+            <label for="password">Enter Password:</label>
+            <input type="password" name="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$" id="pwrd"title="at least one number and one letter, and one capital letter and are atleast 8 characters long"/><br><br>
+            <input type="submit" value="Submit" id="submit" class="button"/>
+        </form>
+    </body>
+  
+</html>
